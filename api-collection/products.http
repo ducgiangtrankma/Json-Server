@@ -1,0 +1,48 @@
+@baseUrl=http://localhost:3000/api
+@resourceName=products
+
+#Products
+
+# @name GET-ALL
+GET {{baseUrl}}/{{resourceName}}
+
+###
+
+# @name FILLTER
+GET {{baseUrl}}/{{resourceName}}?name=salmon&price_gte=500
+#Note : _gte >, _lte <=
+
+###
+
+# @name Pangination
+GET {{baseUrl}}/{{resourceName}}?_page=1&_limit=10
+
+###
+
+# @name Sort
+GET {{baseUrl}}/{{resourceName}}?_sort=price&_order=asc
+
+###
+
+# @name ADD
+POST {{baseUrl}}/{{resourceName}}
+
+Content-Type: application/json
+{
+    "name": "Laptop"
+}
+
+###
+
+# @name UPDATE
+PATCH {{baseUrl}}/{{resourceName}}/qvITO-2
+
+Content-Type: :application/json
+{
+    "name": "New Laptop"
+}
+
+###
+
+# @name DELETE
+DELETE  {{baseUrl}}/{{resourceName}}/qvITO-2

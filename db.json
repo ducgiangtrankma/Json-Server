@@ -1,0 +1,71 @@
+{
+  "categories": [
+    {
+      "id": "817629dd-db52-40e7-bd3b-1bfa03e267c5",
+      "name": "Computers",
+      "createdAt": 1616984792787,
+      "updatedAt": 1616984792787
+    },
+    {
+      "id": "2c13173c-a675-4374-b3e5-ed812922a17c",
+      "name": "Beauty",
+      "createdAt": 1616984792788,
+      "updatedAt": 1616984792788
+    },
+    {
+      "name": "New Laptop 2",
+      "createdAt": 1616984808340,
+      "updatedAt": 1616984819758,
+      "id": "Tn355Z5"
+    }
+  ],
+  "products": [
+    {
+      "id": "a0ced815-4e33-4d7f-8b6e-b4ea5bc0ae1c",
+      "name": "Unbranded Fresh Soap",
+      "color": "black",
+      "price": 938,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1616984792788,
+      "updatedAt": 1616984792788,
+      "thumbnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "817629dd-db52-40e7-bd3b-1bfa03e267c5"
+    },
+    {
+      "id": "fd105d84-a91e-4873-9915-a940f9216143",
+      "name": "Practical Fresh Bacon",
+      "color": "violet",
+      "price": 631,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1616984792789,
+      "updatedAt": 1616984792789,
+      "thumbnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "817629dd-db52-40e7-bd3b-1bfa03e267c5"
+    },
+    {
+      "id": "493ab156-ad5a-47a3-a10e-826e48460991",
+      "name": "Fantastic Rubber Sausages",
+      "color": "cyan",
+      "price": 973,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1616984792789,
+      "updatedAt": 1616984792789,
+      "thumbnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "2c13173c-a675-4374-b3e5-ed812922a17c"
+    },
+    {
+      "id": "7369018f-cf68-4a45-97ae-7bc1e2096c10",
+      "name": "Fantastic Soft Ball",
+      "color": "purple",
+      "price": 433,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createdAt": 1616984792789,
+      "updatedAt": 1616984792789,
+      "thumbnailUrl": "http://placeimg.com/400/400",
+      "categoryId": "2c13173c-a675-4374-b3e5-ed812922a17c"
+    }
+  ],
+  "profile": {
+    "name": "Giang"
+  }
+}
